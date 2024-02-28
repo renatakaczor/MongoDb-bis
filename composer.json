@@ -1,0 +1,18 @@
+{
+    "name": "moussaillon/app",
+    "autoload": {
+        "psr-4": {
+            "": "api/"
+        }
+    },
+    "authors": [
+        {
+            "name": "renatakaczor",
+            "email": "renatakaczor@sfr.fr"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.17",
+        "symfony/http-foundation": "^6.4"
+    }
+}
